@@ -58,7 +58,6 @@ const GameScreen = (props) => {
     setRounds((curRounds) => curRounds + 1);
   };
 
-  console.log("game screen", currentGuess);
   return (
     <View style={styles.screen}>
       <Text>Opponent's Guess</Text>
